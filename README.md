@@ -213,7 +213,10 @@ quizEl.innerHTML = QUESTIONS.map((it,qi)=>{
 
 /* ============================ TIMER ============================ */
 const timerEl = document.getElementById('timer');
-let time = 60, ticking = true;
+/* ==== CONFIG ==== */
+const TIMER_SECONDS = 60;   // <-- put any number you want (e.g., 45, 60, 90)
+let time = TIMER_SECONDS, ticking = true;
+timerEl.textContent = `⏳ ${time}s`;
 const t = setInterval(()=>{
   if(!ticking) return;
   time--; timerEl.textContent = `⏳ ${time}s`;
