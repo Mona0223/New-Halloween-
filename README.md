@@ -132,7 +132,7 @@ const ROUNDS = [
   },
   {
     name: "Modern Horror",
-    seconds: 75,
+    seconds: 60,
     questions: [
       { q:"In <em>Get Out</em> (2017), what sends Chris to the Sunken Place?", choices:["A teacup stir","A phone flash","A doorbell chime","A metronome"], correctIndex:0 },
       { q:"In <em>It</em> (2017), what’s Pennywise’s favorite hangout?", choices:["Storm drains","Abandoned houses","Carnivals","Sewer plant"], correctIndex:0 },
