@@ -161,29 +161,29 @@
 /* ===================== QUESTIONS (edit text if you like) ===================== */
 const QUESTIONS = [
   {
-    q: "In <em>Halloween</em> (1978), what was Michael Myers’ mask originally made from?",
-    choices: ["A blank mannequin mold","A William Shatner mask","A clown mask","A custom latex cast"],
-    correctIndex: 1  // B
+    q:"In <em>Saw</em> (2004), what is the tricycle puppet’s name?",
+    choices:["Jigsaw","Billy","Spiral","Patches"],
+    correctIndex:1 // Billy
   },
   {
-    q: "In <em>The Shining</em> (1980), what reads on Jack’s pages?",
-    choices: ["“All work and no play makes Jack a dull boy”","“REDRUM” repeated","“Come play with us”","“Here’s Johnny!” on loop"],
-    correctIndex: 0  // A
+    q:"In <em>Halloween</em> (1978), Michael Myers’ mask was originally a repainted mask of which character?",
+    choices:["Jason Voorhees","William Shatner","Leatherface","Nosferatu"],
+    correctIndex:1
   },
   {
-    q: "In <em>The Exorcist</em> (1973), what’s the possessed child’s name?",
-    choices: ["Carrie","Regan","Carol Anne","Samara"],
-    correctIndex: 1  // B
+    q:"In <em>A Nightmare on Elm Street</em> (1984), what color stripes are on Freddy’s sweater?",
+    choices:["Red & green","Red & black","Green & black","Brown & red"],
+    correctIndex:0
   },
   {
-    q: "In <em>Scream</em> (1996), the caller asks about which movie?",
-    choices: ["A Nightmare on Elm Street","Friday the 13th","Halloween","Psycho"],
-    correctIndex: 0  // A
+    q:"In <em>Friday the 13th</em> (1980), who is the killer in the original film?",
+    choices:["Jason Voorhees","Pamela Voorhees","A camp counselor","Unknown"],
+    correctIndex:1
   },
   {
-    q: "In <em>The Nightmare Before Christmas</em> (1993), Jack is the Pumpkin King of…",
-    choices: ["Spookyville","Halloweentown","Graveglade","Nightshade Hollow"],
-    correctIndex: 1  // B
+    q:"In <em>Get Out</em> (2017), what sends Chris to the Sunken Place?",
+    choices:["A teacup stir","A phone flash","A doorbell chime","A metronome"],
+    correctIndex:0
   }
 ];
 
